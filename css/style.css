@@ -12078,7 +12078,12 @@ section.pricing {
 }
 
 .title {
-  color: grey;
+  color: black;
+  text-align: center;
+}
+h4 {
+  color: black;
+  text-align: center;
 }
 
 .button {
