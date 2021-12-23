@@ -103,7 +103,6 @@ hr:not([size]) {
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-bottom: 0.5rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   line-height: 1.2;
 }
@@ -114,6 +113,7 @@ h1, .h1 {
 @media (min-width: 1200px) {
   h1, .h1 {
     font-size: 2.5rem;
+    text-align: center;
   }
 }
 
@@ -235,11 +235,11 @@ sup {
 }
 
 a {
-  color: #ffc800;
-  text-decoration: underline;
+  color: black;
+  text-decoration: none;
 }
 a:hover {
-  color: #cca000;
+  color: black;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -11340,8 +11340,8 @@ p {
 }
 
 #mainNav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   background-color: #212529;
 }
 #mainNav .navbar-toggler {
@@ -11846,8 +11846,7 @@ h2 {
 }
 
 h4 {
-  font-family: 'Roboto', sans-serif, 'arial';
-  font-weight: 400;
+
   font-size: 20px;
   color: #9b9b9b;
   line-height: 1.5;
@@ -12107,4 +12106,164 @@ h4 {
     width: 100%;
     display: block;
   }
+}
+.h33{font-size: 50px;
+  margin-left: 25%; 
+  margin-top: 100px ;
+  position: absolute;
+}
+.h333{
+  
+  font-size: 50px;
+  margin-left: 35%;
+}
+.txt1{
+  background-color: white;
+  float: left;
+  font-size: 1.3em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 200px;
+  margin-left: 250px;
+  margin-right: 550px;
+}
+.txt2{ 
+ background-color: white;
+  font-size: 1.3em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 10;
+  margin-left: 250px;
+  margin-right: 250px;
+  line-height:2em;
+}
+.textblac{
+  height: auto;
+  background-color: white;
+}
+.txt3{
+  font-size: 1.1em;
+}
+.img1234{
+
+margin-left: 1500px;
+margin-bottom: 10px;
+display: inline;
+}
+code {
+  font-weight: normal;
+  font-style: normal;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.clear{
+  width:10px;()
+  display: block;
+  clear: both;
+  margin-top: 1px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.bg-cover
+{
+  background-size: cover !important;
+}
+.equipe
+{
+  display: flex;
+padding-left: 300px;
+}
+.f1 
+{
+  background-color: white;
+  margin-top: 300px;
+  height: 400px;
+  width: 400px;
+  display: inline;
+}
+p,.p4{
+  background-color: white;
+}
+.img123{
+  width: 250px;
+}
+.p123{
+  margin-bottom: 100px;
+  margin-left: 150px;
+  width: 700px;
+  height: 500px;
+}
+.p12{
+  background-color: white;
+  word-spacing: 0.5em;
+  line-height: 5em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 150px;
+  margin-top: =50px;
+  float: left;
+  width: 600px;
+}
+
+.clear1
+{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.clear2
+
+{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.ines
+{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.louis
+{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/****************************************************************************/
+                           FORMULAIRE DE CONTACT 
+/****************************************************************************/
+body {font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;}
+
+input[type=text], textarea, input[type=email] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  margin-right: 0px;
+  margin-left: 0px;
+  resize: vertical;
+}
+label{margin-right: 0px;
+  margin-left: 0px;
+
+input[type=submit] {
+  background-color: #1255a2;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #1872D9;
+}
+
+.container {
+  /* Ajouter box-sizing */
+  box-sizing : border-box;
+  border-radius:5px;
+  padding:20px;
+  width: 100%;
+  /* redéfinition 400 + 2*20 */
+  max-width: 440px;
+  margin:0 auto;
+}
+h1  {
+  color: #ffc800;
+  width: 100%;
 }
